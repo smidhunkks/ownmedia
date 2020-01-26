@@ -1,6 +1,22 @@
 ﻿.company{
 	text-align:center;
 	background-color:#232122;
-	height:130px;
-	border-color:black;
+	height:120px;
+	margin:-10px -10px 0px -10px;
+}
+.img-logo{
+	width:190px;
+	height:120px;
+	position:center;
+	margin-top:-10px;
+}
+.list{
+	list-style-type:none;
+	margin-top:-20px;
+	word-spacing:20px;
+	
+}
+.li{
+	display:inline;
+	color:white;
 }
