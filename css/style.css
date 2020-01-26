@@ -19,4 +19,39 @@
 .li{
 	display:inline;
 	color:white;
+	font-family:arial;
+	font-size:15px;
+	
+}
+a:link{
+	text-decoration:none;
+	color:white;
+}
+a:visited{
+	text-decoration:none;
+	color:white;
+}
+a:hover{
+	text-decoration:none;
+	color:white;
+}
+.parallax{
+	background-image: url("img1.jpeg");
+	height:800px;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin-left:-10px;
+	margin-right:-10px;
+}
+.parallax-img{
+	width:100%;
+	height:500px;
+	position:center;
+	
+}
+.p{
+	position:center;
+	font-family:monospace;
 }
