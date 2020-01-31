@@ -1,14 +1,19 @@
-﻿.company{
+﻿*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.company{
 	text-align:center;
 	background-color:#232122;
 	height:120px;
-	margin:-10px -10px 0px -10px;
+
 }
 .img-logo{
 	width:190px;
 	height:120px;
 	position:center;
-	margin-top:-10px;
+	
 }
 .list{
 	list-style-type:none;
@@ -19,7 +24,7 @@
 .li{
 	display:inline;
 	color:white;
-	font-family:arial;
+	font-family: 'Lato', sans-serif;
 	font-size:15px;
 	
 }
@@ -36,22 +41,42 @@ a:hover{
 	color:white;
 }
 .parallax{
-	background-image: url("img1.jpeg");
-	height:800px;
+	background-image: url("../images/parallax.jpg");
+	height:600px;
 	background-attachment:fixed;
-	background-position:center;
+	background-position:left;
 	background-repeat:no-repeat;
 	background-size:cover;
-	margin-left:-10px;
-	margin-right:-10px;
+	filter: grayscale(100%);
+}	
+.box{
+	background-color:white;
+	z-index:-1;
+	width:400px;
+	height:450px;
+	
+
 }
-.parallax-img{
-	width:100%;
-	height:500px;
+.container{
+	
+	padding-top:100px;
+	padding-left:500px;
+}
+.heading{
+	align:center;
+	font-family: 'Lily Script One', cursive;
+	
+	padding-top:50px;
+	font-size:40px;
+	font-weight:lighter;
+}
+.tag-line-div{
 	position:center;
+	padding-top:50px;
+	align:justify;
 	
 }
-.p{
-	position:center;
-	font-family:monospace;
+.tag-line{
+	font-family: 'Dancing Script', cursive;
+	font-size:35px;
 }
