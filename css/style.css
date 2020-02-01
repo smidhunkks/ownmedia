@@ -54,6 +54,9 @@ a:hover{
 	z-index:-1;
 	width:400px;
 	height:450px;
+	padding-left:10;
+	padding-right:10;
+	
 	
 
 }
@@ -61,13 +64,15 @@ a:hover{
 	
 	padding-top:100px;
 	padding-left:500px;
-	padding-right:500px;
+	padding-right:450px;
+	box-align: center;
 }
 .heading{
 	align:center;
 	font-family: 'Lily Script One', cursive;
 	
 	padding-top:50px;
+	padding-bottom: 50px;
 	font-size:40px;
 	font-weight:lighter;
 }
@@ -75,9 +80,33 @@ a:hover{
 	position:center;
 	padding-top:50px;
 	align:justify;
+	/*padding-bottom:200px;*/
 	
 }
 .tag-line{
+	text-align:center;
 	font-family: 'Dancing Script', cursive;
 	font-size:35px;
+	
+}
+.cont{
+	
+	background-color:black;
+	border-radius: 40px;
+	margin-left: 90px;
+	margin-right: 90px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+	width: 200px;
+	
+}
+
+.link-pos{
+	position:center;
+	font-size: 15px;
 }
