@@ -42,8 +42,9 @@ a:hover{
 }
 .parallax{
 	background-image: url("../images/parallax.jpg");
-	height:600px;
+	height:700px;
 	width:100%;
+	padding-top:6%;
 	background-attachment:fixed;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -55,40 +56,31 @@ a:hover{
 .box{
 	background-color:whitesmoke;
 	z-index:-1;
-	width:400px;
-	height:450px;
-	margin-right:10%;
-	margin-left:10%;
-	margin-top:6%;
-	margin-bottom: 6%;
-	/*margin:70px 10% 10% 10px;*/
-	float: right;
+	width:35%;
+	height:550px;
+	margin:auto;
+
 
 }
 
-/*.container{
-	
-	padding-top:100px;
-	padding-left:500px;
-	padding-right:450px;
-	box-align: center;
-}*/
 .heading{
 	text-align:center;
 	font-family: 'Lily Script One', cursive;
 	padding-top:50px;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 	font-size:40px;
 	font-weight:lighter;
 }
 .tag-line-div{
 	padding-top:35px;
-	/*padding-bottom:200px;*/
+	padding-left:20px;
+	padding-right:20px;
 	
 }
 .tag-line{
 	text-align:center;
-	margin:0px 10px 0px 10px;
+	margin:auto;
+	width:auto;
 	font-family: 'Dancing Script', cursive;
 	font-size:35px;
 }
@@ -97,7 +89,7 @@ a:hover{
 		background-color:black;
 		border-radius: 40px;
 		padding:25px 50px 25px 50px;
-		margin:25px 90px 25px 90px;
+		margin:auto;
 		text-align: center;
 		width: 200px;
 	}
@@ -114,6 +106,7 @@ a:hover{
 	background-image: url("../images/parallax.jpg");
 	height:600px;
 	width:100%;
+	padding-top:20%;
 	background-attachment:scroll;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -124,20 +117,36 @@ a:hover{
 	.box{
 		background-color:whitesmoke;
 		z-index:-1;
+		width:70%;
+		float: none;
+		height:80%;
 		
-		height:auto;
-		/*margin:100px 10px 0px 10px;*/
-		float: right;
+		margin:auto;
+		
+		box-sizing: content-box;
+		
 		}
 		.cont{
-			width:auto;
+			
+			margin:auto;
+			
+			width:100px;
+			box-sizing:border-box;
+			
+
 
 		}
 		.link-pos{
-			text-align: left;
+			text-align: center;
 			width:auto;
+			
 			font-size:15px;
 			padding: 10px 0px 10px 0px;
+		}
+		.tag-line-div{
+			padding-top:0px;
+			float:none;
+			
 		}
 }
 .v-left{
