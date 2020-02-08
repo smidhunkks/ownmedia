@@ -65,26 +65,7 @@ a:hover{
 	margin:100px 10px 0px 10px;
 	float: right;
 }
-@media(max-width:992px){
-	.parallax{
-	background-image: url("../images/parallax.jpg");
-	height:600px;
-	width:100%;
-	background-attachment:scroll;
-	background-position:absolute;
-	background-repeat:no-repeat;
-	background-size:cover;
-	filter: grayscale(100%);
-	}
-	.box{
-		background-color:whitesmoke;
-		z-index:-1;
-		width:60%;
-		height:450px;
-		margin:100px 10px 0px 10px;
-		float: right;
-		}
-}
+
 /*.container{
 	
 	padding-top:100px;
@@ -124,6 +105,30 @@ a:hover{
 .link-pos{
 	position:center;
 	font-size:18px;
+}
+@media(max-width:992px){
+	.parallax{
+	background-image: url("../images/parallax.jpg");
+	height:600px;
+	width:100%;
+	background-attachment:scroll;
+	background-position:absolute;
+	background-repeat:no-repeat;
+	background-size:cover;
+	filter: grayscale(100%);
+	}
+	.box{
+		background-color:whitesmoke;
+		z-index:-1;
+		width:50%;
+		height:450px;
+		margin:100px 10px 0px 10px;
+		float: right;
+		}
+		.link-pos{
+			text-align: center;
+			font-size:18px;
+		}
 }
 .v{
 	display:inline;
