@@ -1,13 +1,19 @@
 ﻿*{
-margin:0;
-padding:0;
-box-sizing:border-box;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 }
 .company{
 	text-align:center;
 	background-color:#232122;
 	height:120px;
 
+}
+@media(max-width:992px){
+	text-align:center;
+	background-color:#232122;
+	height:120px;
+	width:100%;
 }
 .img-logo{
 	width:190px;
@@ -43,12 +49,23 @@ a:hover{
 .parallax{
 	background-image: url("../images/parallax.jpg");
 	height:600px;
+	width:100%;
 	background-attachment:fixed;
-	background-position:left;
+	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	filter: grayscale(100%);
-}	
+}
+@media(max-width:992px){
+	background-image: url("../images/parallax.jpg");
+	height:600px;
+	width:100%;
+	background-attachment:scroll;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	filter: grayscale(100%);
+}
 .box{
 	background-color:white;
 	z-index:-1;
@@ -56,9 +73,16 @@ a:hover{
 	height:450px;
 	padding-left:10;
 	padding-right:10;
-	
-	
-
+	box-align: center;
+}
+@media(max-width:992px){
+	background-color:white;
+	z-index:-1;
+	width:auto;
+	height:450px;
+	padding-left:10;
+	padding-right:10;
+	box-align: center;
 }
 .container{
 	
@@ -68,9 +92,8 @@ a:hover{
 	box-align: center;
 }
 .heading{
-	align:center;
+	text-align:center;
 	font-family: 'Lily Script One', cursive;
-	
 	padding-top:50px;
 	padding-bottom: 50px;
 	font-size:40px;
@@ -78,7 +101,7 @@ a:hover{
 }
 .tag-line-div{
 	position:center;
-	padding-top:50px;
+	padding-top:35px;
 	align:justify;
 	/*padding-bottom:200px;*/
 	
@@ -87,26 +110,20 @@ a:hover{
 	text-align:center;
 	font-family: 'Dancing Script', cursive;
 	font-size:35px;
-	
 }
 .cont{
-	
 	background-color:black;
 	border-radius: 40px;
-	margin-left: 90px;
-	margin-right: 90px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	padding-left: 50px;
-	padding-right: 50px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	padding:25px 50px 25px 50px;
+	margin:25px 90px 25px 90px;
 	text-align: center;
 	width: 200px;
-	
 }
 
 .link-pos{
 	position:center;
-	font-size: 15px;
+	font-size:18px;
+}
+.v{
+	display:inline;
 }
