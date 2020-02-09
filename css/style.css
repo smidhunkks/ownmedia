@@ -56,8 +56,8 @@ a:hover{
 .box{
 	background-color:whitesmoke;
 	z-index:-1;
-	width:35%;
-	height:550px;
+	width:33%;
+	height:525px;
 	margin:auto;
 
 
@@ -82,8 +82,9 @@ a:hover{
 	margin:auto;
 	width:auto;
 	font-family: 'Dancing Script', cursive;
-	font-size:35px;
+	font-size:45px;
 }
+@media(min-width:992px){
 
 	.cont{
 		background-color:black;
@@ -93,10 +94,13 @@ a:hover{
 		text-align: center;
 		width: 200px;
 	}
-
+}
 .link-pos{
 	position:center;
 	font-size:18px;
+}
+.button-padd{
+	padding-top:40px;
 }
 @media(max-width:992px){
 	.company{
@@ -107,7 +111,7 @@ a:hover{
 	height:600px;
 	width:100%;
 	padding-top:20%;
-	background-attachment:scroll;
+	background-attachment:fixed;
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -117,9 +121,9 @@ a:hover{
 	.box{
 		background-color:whitesmoke;
 		z-index:-1;
-		width:70%;
+		width:65%;
 		float: none;
-		height:80%;
+		height:90%;
 		
 		margin:auto;
 		
@@ -128,25 +132,29 @@ a:hover{
 		}
 		.cont{
 			
-			margin:auto;
-			
+			margin: auto;
 			width:100px;
-			box-sizing:border-box;
 			
 
 
 		}
 		.link-pos{
-			text-align: center;
-			width:auto;
+			margin: auto;
 			
+			/*text-align: center;*/
+			background-color:black;
+			border-radius: 25px;
 			font-size:15px;
-			padding: 10px 0px 10px 0px;
+			padding: 10px;
 		}
 		.tag-line-div{
 			padding-top:0px;
 			float:none;
 			
+		}
+
+		.tag-line{
+			font-size:30px;
 		}
 }
 .v-left{
