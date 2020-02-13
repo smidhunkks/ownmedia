@@ -173,7 +173,7 @@ a:hover{
 .v{
 	background-color:#232122;
 	height: 1000px;
-	display: flex;
+	
 }
 .v-inner{
 	background-color:whitesmoke;
@@ -204,4 +204,13 @@ a:hover{
 }
 .fntsize{
 	font-size: 23px;
+	
+}
+.txtclr{
+	color:white;
+	opacity: .89;
+	transition: all;
+	transition-duration: .1s;
+	transition-timing-function: ease;
+
 }
