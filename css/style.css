@@ -50,7 +50,6 @@ a:hover{
 	background-repeat:no-repeat;
 	background-size:cover;
 	filter: grayscale(100%);
-	
 }
 
 .box{
@@ -59,8 +58,6 @@ a:hover{
 	width:33%;
 	height:525px;
 	margin:auto;
-
-
 }
 
 .heading{
@@ -116,7 +113,6 @@ a:hover{
 	background-repeat:no-repeat;
 	background-size:cover;
 	filter: grayscale(100%);
-	
 	}
 	.box{
 		background-color:whitesmoke;
@@ -124,19 +120,13 @@ a:hover{
 		width:65%;
 		float: none;
 		height:90%;
-		
 		margin:auto;
-		
 		box-sizing: content-box;
 		
 		}
 		.cont{
-			
 			margin: auto;
 			width:100px;
-			
-
-
 		}
 		.link-pos{
 			margin: auto;
@@ -149,68 +139,45 @@ a:hover{
 		}
 		.tag-line-div{
 			padding-top:0px;
-			float:none;
-			
+			/*float:none;*/
 		}
 
 		.tag-line{
 			font-size:30px;
 		}
 }
-.v-left{
-	display:inline-block;
-	padding:10px;
-	margin-top:-50px;
-	margin-left:150px;
-	float: left;
-	border-style: double;
-	border-width: 10px;
-	z-index: 1;
-	background-color: rgb(255, 255, 255);
-	width:400px;
-	height:500px;
-}
+
+
 .v{
 	background-color:#232122;
 	height: 1000px;
-	
 }
 .v-inner{
 	background-color:whitesmoke;
 	height:480px;
 	width:100%;
-	display: flex;
 	padding-right: 40px;
+	display: flex;
 }
 .v-box{
-	
-	flex-direction: row;
-	background:whitesmoke;
+	background:white;
 	width:400px;
 	height:520px;
 	margin-top:-20px;
 	margin-left:40px;
-	
 	padding: 10px 10px 10px 10px;
 	z-index:1;
-
 }
 .image{
-	/*background-image: url("../images/malte-wingen-5qT09yIbROk-unsplash (1).jpg");*/
 	width: 380px;
-	height:500px;
-	
-	
+	height:500px;	
 }
 .fntsize{
 	font-size: 23px;
+	opacity:.5;
 	
 }
 .txtclr{
 	color:white;
 	opacity: .89;
-	transition: all;
-	transition-duration: .1s;
-	transition-timing-function: ease;
-
 }
