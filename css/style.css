@@ -100,9 +100,9 @@ a:hover{
 	padding-top:40px;
 }
 @media(max-width:992px){
-	.company{
+	/*.company{
 		width:auto;
-	}
+	}*/
 	.parallax{
 	background-image: url("../images/parallax.jpg");
 	height:600px;
@@ -150,13 +150,14 @@ a:hover{
 
 .v{
 	background-color:#232122;
-	height: 1000px;
+	/*height: 1000px;
+	display: flex;*/
 }
 .v-inner{
 	background-color:whitesmoke;
 	height:480px;
 	width:100%;
-	padding-right: 40px;
+	padding-left: 40px;
 	display: flex;
 }
 .v-box{
@@ -164,7 +165,6 @@ a:hover{
 	width:400px;
 	height:520px;
 	margin-top:-20px;
-	margin-left:40px;
 	padding: 10px 10px 10px 10px;
 	z-index:1;
 }
@@ -175,9 +175,14 @@ a:hover{
 .fntsize{
 	font-size: 23px;
 	opacity:.5;
-	
+	height:inherit;
 }
 .txtclr{
 	color:white;
 	opacity: .89;
+
+}
+.bgclr{
+	background-color: azure;
+	display: inline;
 }
