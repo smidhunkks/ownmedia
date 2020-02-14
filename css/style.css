@@ -59,7 +59,11 @@ a:hover{
 	height:525px;
 	margin:auto;
 }
-
+.divider{
+	margin: auto;
+	width:90%;
+	position:relative;
+}
 .heading{
 	text-align:center;
 	font-family: 'Lily Script One', cursive;
@@ -168,6 +172,12 @@ a:hover{
 	padding: 10px 10px 10px 10px;
 	z-index:1;
 
+}
+@media(max-width:992px)
+{
+	.v-box{
+		margin-top:0px;
+	}
 }
 .image{
 	width: 380px;
