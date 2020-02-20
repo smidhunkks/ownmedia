@@ -4,6 +4,7 @@
 		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="css/bootstrap.css"> 
+		 <script src="css/js/javascript.js"></script> 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>OWN MEDIA</title>
@@ -15,7 +16,7 @@
 			<ul class="list">
 				<li class="li"><a href="#">Home</a></li>
 				<li class="li"><a href="#">About</a></li>
-				<li class="li"><a href="#services">Services</a></li>
+				<li class="li"><a href="#gallery">Gallery</a></li>
 				<li class="li"><a href="#">Contact</a></li>
 			</ul>
 		</div>
@@ -23,7 +24,8 @@
 	<section>
 
 			<div class="parallax container-fluid">
-			    <div  class="box">
+			<div class="row">
+			    <div  class="box col-lg-4">
 				    <h2 class="heading">OWN MEDIA</h2>
 							<div class="row">
 								<img src="images/content divider.png" class="col-lg-12 col-md-12">
@@ -36,38 +38,117 @@
 						-->
 							</div>
 				</div>
-			</div>
-	</section>
-	<section class="v-inner container-fluid">
-	<div class="row">
-			<div class="v-box col-lg-4 col-md-12 ">
-				<div class="row">
-					<img  src="images/malte-wingen-5qT09yIbROk-unsplash (1).jpg" class="image col-lg-12 col-md-12">
 				</div>
 			</div>
-		<div class="v-box col-lg-4 col-md-12 border">
-					<h2 class="heading" align="center">About us</h2>
-							<div class="row">
-								<img src="images/content divider.png" class="col-lg-12 col-md-12">
-							</div>
-				<p class="tag-line fntsize">
-					CatchCo is a creative photo studio providing a great number of photo and video services. We are passionate about photography and gladly share this passion with you. Projector is a team of enthusiasts who do their best to meet any client’s’ demand and provide them with perfectly made photos. We capture the moments of your life!
-				</p>
-		</div>
-		<div class="v-box col-lg-4 col-md-12">
+	</section>
+	<section class="v-inner">
 			<div class="row">
-				<img src="images/img2.jpg" class="image col-lg-12 col-md-12">
+				<div class="v-box col-lg-4 col-md-12">
+					<div class="row">
+						<img  src="images/about img.jpg" class="image col-lg-12 col-md-12">
+					</div>
+				</div>
+				<div class="v-box col-lg-4 col-md-12 border">
+						<h2 class="heading" align="center">About us</h2>
+								<div class="row">
+									<img src="images/content divider.png" class="col-lg-12 col-md-12">
+								</div>
+					<p class="tag-line fntsize">
+						OWN MEDIA is a creative photography crew providing a great number of photo and video services. We are passionate about photography and gladly share this passion with you. Projector is a team of enthusiasts who do their best to meet any client’s’ demand and provide them with perfectly made photos. We capture the moments of your life!
+					</p>
+				</div>
+				<div class="v-box col-lg-4 col-md-12">
+					<div class="row">
+						<img src="images/about img 2.jpg" class="image col-lg-12 col-md-12">
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
 	</section>
 
 
-	<section id="services">
-		<div class="v">
-				<div class="row">
-						<h2 class="heading txtclr col-lg-12 col-md-12">Services</h2>		
-				</div>
+	<section id="gallery">
+		<div class="v container-fluid">
+			<h2 class="heading txtclr">Gallery</h2>
+		</div>
+		<!--filter gallery-->
+		<div id="myBtnContainer" align="center" class="gall">
+  			<button class="btn active" onclick="filterSelection('all')"> Show all</button>
+ 			 <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+  			<button class="btn" onclick="filterSelection('cars')"> Cars</button>
+  			<button class="btn" onclick="filterSelection('people')"> People</button>
+		</div>
+
+		<!-- Portfolio Gallery Grid -->
+		<div class="row">
+		<div class="column nature">
+			<div class="content">
+			<img src="images/gallery/wedding/weddingring.jpg" alt="Mountains" style="width:100%">
+			<h4>Mountains</h4>
+			<p>Lorem ipsum dolor..</p>
+			</div>
+		</div>
+		<div class="column nature">
+			<div class="content">
+			<img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+			<h4>Lights</h4>
+			<p>Lorem ipsum dolor..</p>
+			</div>
+		</div>
+		<div class="column nature">
+			<div class="content">
+			<img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+			<h4>Forest</h4>
+			<p>Lorem ipsum dolor..</p>
+			</div>
+		</div>
+		
+		<div class="column cars">
+			<div class="content">
+			<img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+			<h4>Retro</h4>
+			<p>Lorem ipsum dolor..</p>
+			</div>
+		</div>
+		<div class="column cars">
+			<div class="content">
+			<img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+			<h4>Fast</h4>
+			<p>Lorem ipsum dolor..</p>
+			</div>
+		</div>
+		<div class="column cars">
+			<div class="content">
+			<img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+			<h4>Classic</h4>
+			<p>Lorem ipsum dolor..</p>
+			</div>
+		</div>
+
+		<div class="column people">
+			<div class="content">
+			<img src="/w3images/people1.jpg" alt="Car" style="width:100%">
+			<h4>Girl</h4>
+			<p>Lorem ipsum dolor..</p>
+			</div>
+		</div>
+		<div class="column people">
+			<div class="content">
+			<img src="/w3images/people2.jpg" alt="Car" style="width:100%">
+			<h4>Man</h4>
+			<p>Lorem ipsum dolor..</p>
+			</div>
+		</div>
+		<div class="column people">
+			<div class="content">
+			<img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+			<h4>Woman</h4>
+			<p>Lorem ipsum dolor..</p>
+			</div>
+		</div>
+		<!-- END GRID -->
+		</div>
+
+		<!-- END MAIN -->
 		</div>
 	</section>
 

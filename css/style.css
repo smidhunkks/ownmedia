@@ -46,7 +46,7 @@ a:hover{
 	width:100%;
 	padding-top:6%;
 	background-attachment:fixed;
-	background-position:center;
+	background-position:left;
 	background-repeat:no-repeat;
 	background-size:cover;
 	filter: grayscale(100%);
@@ -58,6 +58,7 @@ a:hover{
 	width:33%;
 	height:525px;
 	margin:auto;
+	opacity:.9;
 }
 .divider{
 	margin: auto;
@@ -85,17 +86,6 @@ a:hover{
 	font-family: 'Dancing Script', cursive;
 	font-size:45px;
 }
-@media(min-width:992px){
-
-	.cont{
-		background-color:black;
-		border-radius: 40px;
-		padding:25px 50px 25px 50px;
-		margin:auto;
-		text-align: center;
-		width: 200px;
-	}
-}
 .link-pos{
 	position:center;
 	font-size:18px;
@@ -112,6 +102,8 @@ a:hover{
 	height:600px;
 	width:100%;
 	padding-top:20%;
+	padding-left: 20px;
+	padding-right: 20px;
 	background-attachment:fixed;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -121,10 +113,13 @@ a:hover{
 	.box{
 		background-color:whitesmoke;
 		z-index:-1;
-		width:65%;
+		/*width:65%;*/
 		float: none;
-		height:90%;
+		/*height:90%;*/
+		height:auto;
 		margin:auto;
+		margin-left:20px;
+		margin-right:20px;
 		box-sizing: content-box;
 		
 		}
@@ -161,7 +156,8 @@ a:hover{
 	background-color:whitesmoke;
 	height:480px;
 	width:100%;
-	padding-left: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 	display: flex;
 }
 .v-box{
@@ -178,15 +174,30 @@ a:hover{
 	.v-box{
 		margin-top:0px;
 	}
+	.v-inner{
+		height: auto;
+	}
+	.image{
+		height:auto;
+	}
 }
+@media(min-width:992px)
+
+{
 .image{
 	width: 380px;
-	height:500px;	
+	height:500px;
+	filter:grayscale(50%);
+}
+
+.image:hover{
+	filter:grayscale(0%);
+}
 }
 .fntsize{
 	font-size: 23px;
 	opacity:.5;
-	height:inherit;
+	height:auto;
 }
 .txtclr{
 	color:white;
@@ -197,3 +208,63 @@ a:hover{
 	background-color: azure;
 	display: inline;
 }
+
+/* Style the buttons */
+.btn {
+	border:solid;
+	border-radius: 25px;
+	outline: #232122;
+	padding: 12px 16px;
+	background-color: white;
+	cursor:pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btn:hover {
+	background-color:black;
+	color:whitesmoke;
+  }
+  
+  /* Add a dark background color to the active button */
+  .btn.active {
+	background-color: #666;
+	 color: white;
+  }
+  .gall{
+	  width:auto;
+  }
+  .row {
+	margin: 10px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  /*.row,
+  .row > .column {
+	padding: 8px;
+  }
+  */
+  /* Create three equal columns that floats next to each other */
+  .column {
+	float: left;
+	width: 33.33%;
+	display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Content */
+  .content {
+	background-color: white;
+	padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+	display: block;
+  }
+  

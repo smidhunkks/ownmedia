@@ -2119,12 +2119,13 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 	white-space: nowrap;
 	vertical-align: middle;
 	user-select: none;
-	border: 1px solid transparent;
+	border: 1px solid;
 	padding: 19px 32px;
 	font-size: 14px;
 	line-height: 1.34;
-	border-radius: 0;
+	border-radius: 30px;
 	transition: all 0.15s ease-in-out;
+	background-color: white;
 }
 
 .btn:focus, .btn:hover {
@@ -2156,7 +2157,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-link:hover {
-	color: #1f371c;
+	color: black;
 	text-decoration: underline;
 	background-color: transparent;
 	border-color: transparent;
