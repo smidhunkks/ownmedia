@@ -72,6 +72,7 @@ a:hover{
 	padding-bottom: 10px;
 	font-size:40px;
 	font-weight:lighter;
+	margin: auto;
 }
 .tag-line-div{
 	padding-top:35px;
@@ -162,9 +163,11 @@ a:hover{
 }
 .v-box{
 	background:white;
-	width:400px;
-	height:520px;
+	position: absolute;
+	height:530px;
 	margin-top:-20px;
+	margin-left: 2px;
+	margin-right:2px;
 	padding: 10px 10px 10px 10px;
 	/*z-index:1;*/
 
@@ -179,6 +182,7 @@ a:hover{
 	}
 	.image{
 		height:auto;
+		
 	}
 }
 @media(min-width:992px)
@@ -188,6 +192,7 @@ a:hover{
 	width: 380px;
 	height:500px;
 	filter:grayscale(50%);
+	position: relative;
 }
 
 .image:hover{
@@ -237,13 +242,6 @@ a:hover{
 	margin: 10px -16px;
   }
   
-  /* Add padding BETWEEN each column */
-  /*.row,
-  .row > .column {
-	padding: 8px;
-  }
-  */
-  /* Create three equal columns that floats next to each other */
   .column {
 	float: left;
 	width: 33.33%;
@@ -278,4 +276,7 @@ a:hover{
 		  text-align:center;
 
 	  }
+  }
+  .mrg{
+	  margin-top: 20px;
   }
