@@ -1,4 +1,16 @@
-filterSelection("all") // Execute the function and show all columns
+function open(){
+  var x = document.getElementById("nvbr");
+  x.style.width="300px";
+  return;
+  
+  }
+  function close(){
+    var x = document.getElementById("nvbr");
+    x.style.width="0px";
+    return;
+  }
+
+//filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("column");
@@ -8,6 +20,7 @@ function filterSelection(c) {
     w3RemoveClass(x[i], "show");
     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
   }
+  addactivecls();
 }
 
 // Show filtered elements
@@ -20,6 +33,7 @@ function w3AddClass(element, name) {
       element.className += " " + arr2[i];
     }
   }
+  addactivecls();
 }
 
 // Hide elements that are not selected
@@ -33,9 +47,11 @@ function w3RemoveClass(element, name) {
     }
   }
   element.className = arr1.join(" ");
+  addactivecls();
 }
 
 // Add active class to the current button (highlight it)
+function addactivecls(){
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
@@ -45,4 +61,7 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+}
+
+
 

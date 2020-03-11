@@ -13,14 +13,20 @@
 	<section class="company container-fluid">
 		<div>
 			<img class="img-logo" src="images/logo.png">
-				<ul class="list">
-					<li class="li"><a href="#">Home</a></li>
-					<li class="li"><a href="#about">About</a></li>
-					<li class="li"><a href="#gallery" onclick="filterSelection('all')">Gallery</a></li>
-					<li class="li"><a href="#contact">Contact</a></li>
-				</ul>
+				<button id="bttn" class="menu" onclick=open();><img src="images/menu.png" onclick=open();></button>
+				<div id="nvbr" class="mbv" >
+					
+					<ul class="list">
+					    <button class="clsbtn" onclick=close();><img class="clsimg" src="images/close.png"></button>
+						<li class="li"><a href="#">Home</a></li>
+						<li class="li"><a href="#about">About</a></li>
+						<li class="li"><a href="#gallery" onclick="filterSelection('all')">Gallery</a></li>
+						<li class="li"><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
 		</div>
 	</section>
+
 	<section>
 
 			<div class="parallax container-fluid">
